@@ -1,0 +1,45 @@
+GIT & GITHUB
+
+GIT= SISTEMA DE CONTROLE DE VERSÃO DE DOCUMENTO
+GITHUB = Local na web Repositorio remoto
+
+
+
+CODIGOS
+
+git config ==> git config --global user.email sam@google.com
+//valores de configuração específicos do usuário como e-mail
+
+git init ==> git init
+//Este comando é usado para criar um novo repositório GIT. Uso:
+
+git add ==> adiciona apenas 1 arquivo por vezes
+git add * ==> git add temp.txt ou git add *
+//O comando git add pode ser usado para adicionar arquivos ao índice dentro  da pasta
+
+git  clone ==> git clone alex@93.188.160.58:/path/to/repository
+//O comando git clone é usado para fins de verificação de repositório. Se o repositório estiver em um servidor remoto, use:
+
+git commit ==> git commit –m “coloque sua mensagem aqui”
+O comando git commit é usado para confirmar as alterações na cabeça.
+//Tenha em atenção que quaisquer alterações efetuadas não irão para o repositório remoto
+
+git status ==> git status
+//exibe a lista de arquivos alterados juntamente com os arquivos que ainda não foram adicionados ou confirmados.
+
+git push ==> git push origin master
+//git push é outro dos comandos git básicos mais usados. Um simples envio envia as alterações feitas para o ramo mestre do repositório remoto associado ao diretório de trabalho
+
+git checkout ==> command git checkout -b <branch-name>
+//O comando git checkout pode ser usado para criar ramos ou alternar entre eles. Por exemplo, o seguinte cria um novo ramo e muda para ele:
+
+git remote ==> git remote –v
+//O comando git remote permite que um usuário se conecte a um repositório remoto. O comando a seguir lista os repositórios remotos atualmente configurados
+
+git branch ==> git branch excluir um ramo ==> git branch –d <branch-name>
+//O comando git branch pode ser usado para listar, criar ou excluir ramos.
+
+git pull ==> git pull
+//Para mesclar todas as alterações presentes no repositório remoto para o diretório de trabalho local, o comando pull é usado
+
+pwd ==> mostra aonde você esta
