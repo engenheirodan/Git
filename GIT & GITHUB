@@ -42,6 +42,8 @@ git branch ==> git branch excluir um ramo ==> git branch –d <branch-name>
 git pull ==> git pull
 //Para mesclar todas as alterações presentes no repositório remoto para o diretório de trabalho local, o comando pull é usado
 
+git pull origin main ==> resolvendo conflitos quando vc faz uma alteração no remoto ai repassa pro pc
+
 pwd ==> mostra aonde você esta
 
 git fetch ==> usado para fazer dowlonds das alterações dos projetos do que foi modificado e vrificar quais foram as mudanças.
